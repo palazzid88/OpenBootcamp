@@ -20,7 +20,19 @@ let factorial = 1;
 
 while (factorial < 10) {
     numero2= numero2 * factorial;
-    console.log(numero2)
-    factorial++
-    console.log(factorial)
+    console.log(numero2);
+    factorial++;
+    console.log(factorial);
+}
+
+
+let factorial1 = 1;
+let num = 10;
+while (true) {
+    factorial1 *= num; //factorial1 = factorial1 * num
+    console.log(factorial1);
+    console.log(num);
+    num--;
+    console.log(num);
+    if (num === 1) break;
 }
